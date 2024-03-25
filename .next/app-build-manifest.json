@@ -20,10 +20,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/about-us/company/sales/page.js"
     ],
-    "/not-found": [
+    "/about-us/company/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/chunks/app/about-us/company/page.js"
     ]
   }
 }
