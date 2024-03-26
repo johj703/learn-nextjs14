@@ -3,7 +3,7 @@ export const metadata = {
   description: "The best movies on the best frameworks.",
 };
 
-export default function Tomato() {
+export default function Page() {
   return (
     <div>
       <h1>Hello!</h1>
