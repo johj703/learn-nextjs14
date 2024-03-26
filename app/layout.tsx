@@ -3,8 +3,8 @@ import Navigation from "../components/navigation";
 
 export const metadata: Metadata = {
   title: {
-    template: "About us | Next Movies",
-    default: "Loading",
+    template: "%s | Next Movies",
+    default: "Next Movies",
   },
   description: "The best movies on the best framework.",
 };
