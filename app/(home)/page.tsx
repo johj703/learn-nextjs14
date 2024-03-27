@@ -10,6 +10,6 @@ async function getMovies() {
   return json;
 }
 
-export default function HomePage() {
+export default async function HomePage() {
   return <div>{JSON.stringify(movies)}</div>;
 }
