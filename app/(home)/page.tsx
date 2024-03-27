@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 
 export default function Page() {
+  const [isLoading, setIsLoading] = useState(true);
   const [movies, setMovies] = useState([]);
   const getMovies = async () => {
     const response = await fetch(
@@ -9,9 +10,10 @@ export default function Page() {
     );
     const json = await response.json();
     setMovies(json);
+    setIsLoading(false);
   };
   useEffect(() => {
     getMovies();
   });
-  return <div>{JSON.stringify(movies)}</div>;
+  return <div>{isLoading ? "Loading" : JSON.stringify(movies)}</div>;
 }
