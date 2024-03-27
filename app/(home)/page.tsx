@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 export default function Page() {
-  const [movies, setMovies] = useState();
+  const [movies, setMovies] = useState([]);
   const getMovies = async () => {
     const response = await fetch(
       "https://nomad-movies.nomadcoders.workers.dev/movies"
