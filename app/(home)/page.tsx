@@ -11,5 +11,6 @@ async function getMovies() {
 }
 
 export default async function HomePage() {
+  const movies = await getMovies();
   return <div>{JSON.stringify(movies)}</div>;
 }
