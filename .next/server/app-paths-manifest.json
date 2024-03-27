@@ -1,5 +1,5 @@
 {
-  "/(movis)/movies/[id]/page": "app/(movis)/movies/[id]/page.js",
+  "/(home)/page": "app/(home)/page.js",
   "/about-us/page": "app/about-us/page.js",
-  "/(home)/page": "app/(home)/page.js"
+  "/(movis)/movies/[id]/page": "app/(movis)/movies/[id]/page.js"
 }
