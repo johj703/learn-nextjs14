@@ -10,5 +10,6 @@ export default async function MovieDetail({
 }: {
   params: { id: string };
 }) {
-  return <h1>Movie {id}</h1>;
+  const movie = await getMovie(id);
+  return <h1>{movie.title}</h1>;
 }
