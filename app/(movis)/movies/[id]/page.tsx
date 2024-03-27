@@ -1,4 +1,4 @@
-export default function MovieDetail({
+export default async function MovieDetail({
   params: { id },
 }: {
   params: { id: string };
