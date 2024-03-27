@@ -19,7 +19,9 @@ export default async function MovieDetail({
 }: {
   params: { id: string };
 }) {
+  console.log("start fetching");
   const movie = await getMovie(id);
   const videos = await getVideos(id);
+  console.log("end fetching");
   return <h1>{movie.title}</h1>;
 }
