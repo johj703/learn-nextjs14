@@ -1,5 +1,4 @@
-"use client";
-import { useEffect, useState } from "react";
+
 
 const URL = "https://nomad-movies.nomadcoders.workers.dev/movies
 
