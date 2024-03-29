@@ -168,7 +168,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************************/
 /***/ ((module) => {
 
-eval("// Exports\nmodule.exports = {\n\n};\n\nmodule.exports.__checksum = \"73ff4aef96d0\"\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zdHlsZXMvbW92aWUubW9kdWxlLmNzcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBOztBQUVBOztBQUVBLHlCQUF5QiIsInNvdXJjZXMiOlsid2VicGFjazovL2xlYXJuLW5leHRqczE0Ly4vc3R5bGVzL21vdmllLm1vZHVsZS5jc3M/NTdmOCJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IHtcblxufTtcblxubW9kdWxlLmV4cG9ydHMuX19jaGVja3N1bSA9IFwiNzNmZjRhZWY5NmQwXCJcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./styles/movie.module.css\n");
+eval("// Exports\nmodule.exports = {\n\t\"movie\": \"movie_movie__n6Ry2\"\n};\n\nmodule.exports.__checksum = \"aa304c6ca757\"\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zdHlsZXMvbW92aWUubW9kdWxlLmNzcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQSx5QkFBeUIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9sZWFybi1uZXh0anMxNC8uL3N0eWxlcy9tb3ZpZS5tb2R1bGUuY3NzPzU3ZjgiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwibW92aWVcIjogXCJtb3ZpZV9tb3ZpZV9fbjZSeTJcIlxufTtcblxubW9kdWxlLmV4cG9ydHMuX19jaGVja3N1bSA9IFwiYWEzMDRjNmNhNzU3XCJcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./styles/movie.module.css\n");
 
 /***/ }),
 
