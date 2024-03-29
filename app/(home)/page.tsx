@@ -20,7 +20,7 @@ export default async function HomePage() {
       {movies.map((movie) => (
         <div key={movie.id}>
           <img src={movie.poster_path} alt={movie.title} />
-          <Link href={`/movies/${movie.id}`} />
+          <Link href={`/movies/${movie.id}`}>{movie.title}</Link>
         </div>
       ))}
     </div>
