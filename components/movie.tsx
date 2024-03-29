@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 interface IMovieProps {
     title: string;
     id: string;
