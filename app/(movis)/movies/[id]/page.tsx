@@ -2,7 +2,11 @@ import { Suspense } from "react";
 import MovieInfo from "../../../../components/movie-info";
 import MovieVideos from "../../../../components/movie-videos";
 
-export async function generateMetadata({params: {id}}){
+interface IParams {
+  params: {id: string};
+}
+
+export async function generateMetadata({params: {id}}: IParams){
   return {
     title: "lalalalal"
   }
@@ -10,9 +14,7 @@ export async function generateMetadata({params: {id}}){
 
 export default async function MovieDetail({
   params: { id },
-}: {
-  params: { id: string };
-}) {
+}: IParams) {
   return (
     <div>
       <Suspense fallback={<h1>Loading movie info</h1>}>
