@@ -1,15 +1,16 @@
 import Movie from "../../components/movie";
 import styles from "../../styles/home.module.css"
+import { API_MOVIE_LIST } from "../api-path"
 
 export const metadata = {
   title: "Home",
 };
 
-export const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
+// export const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
 
 async function getMovies() {
   await new Promise((resolve) => setTimeout(resolve, 2000));
-  const response = await fetch(API_URL);
+  const response = await fetch(API_MOVIE_LIST);
   const json = await response.json();
   return json;
 }
