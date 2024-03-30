@@ -22,6 +22,12 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(home)/loading.js"
     ],
+    "/(movis)/movies/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(movis)/movies/[id]/page.css",
+      "static/chunks/app/(movis)/movies/[id]/page.js"
+    ],
     "/(movis)/movies/[id]/error": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -31,17 +37,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(movis)/movies/[id]/loading.js"
-    ],
-    "/(movis)/movies/[id]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(movis)/movies/[id]/page.css",
-      "static/chunks/app/(movis)/movies/[id]/page.js"
-    ],
-    "/about-us/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/about-us/page.js"
     ]
   }
 }
