@@ -7,3 +7,8 @@
     margin-top: 100px;
     padding-bottom: 100px;
 }
+
+.container iframe {
+    border-radius: 10px;
+    opacity: 0.8;
+}
