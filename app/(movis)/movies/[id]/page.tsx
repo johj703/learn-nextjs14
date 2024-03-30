@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import MovieInfo from "../../../../components/movie-info";
 import MovieVideos from "../../../../components/movie-videos";
 
-export async function generateMetadata(){
+export async function generateMetadata({params: {id}}){
   return {
     title: "lalalalal"
   }
