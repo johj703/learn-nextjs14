@@ -1,5 +1,9 @@
 {
   "/(home)/page": "app/(home)/page.js",
+<<<<<<< HEAD
   "/(movis)/movies/[id]/page": "app/(movis)/movies/[id]/page.js",
   "/about-us/page": "app/about-us/page.js"
+=======
+  "/(movis)/movies/[id]/page": "app/(movis)/movies/[id]/page.js"
+>>>>>>> eb0a6a0a476014e4dd3c3f453649b914fd26987d
 }
