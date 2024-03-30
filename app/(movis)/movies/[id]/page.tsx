@@ -12,9 +12,7 @@ export async function generateMetadata({params: {id}}: IParams){
   }
 }
 
-export default async function MovieDetail({
-  params: { id },
-}: IParams) {
+export default async function MovieDetail({params: { id }}: IParams) {
   return (
     <div>
       <Suspense fallback={<h1>Loading movie info</h1>}>
