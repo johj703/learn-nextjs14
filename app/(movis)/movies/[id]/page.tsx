@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import MovieInfo from "../../../../components/movie-info";
+import MovieInfo, { getMovie } from "../../../../components/movie-info";
 import MovieVideos from "../../../../components/movie-videos";
 
 interface IParams {
@@ -7,8 +7,9 @@ interface IParams {
 }
 
 export async function generateMetadata({params: {id}}: IParams){
+  const movie = await getMovie(id);
   return {
-    title: "lalalalal"
+    title: movie.title
   }
 }
 
